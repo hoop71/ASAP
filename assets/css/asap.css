@@ -64,6 +64,15 @@ z-index: 9999;
 bottom-border: 0px solid #ffffff; 
 }
 
+.section.text-center {
+box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
+}
+
+div#ourWork.car, .page-header, #Us.section.text-center { 
+border: 0;
+box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
+}
+
 #NOT { 
 font-weight: 800; }
 
@@ -79,5 +88,7 @@ margin-top: -1rem;
 margin-top: 1rem; 
 }
 
-li:after { 
-color: green; }
+.car-footer h4 { 
+margin-top: 1rem;
+}
+

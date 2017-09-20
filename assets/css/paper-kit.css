@@ -1891,7 +1891,7 @@ textarea.form-control {
   width: 100%;
   z-index: 1;
 }
-.section-image  {
+.section-image  .container{
   position: relative;
   z-index: 2;
 }
@@ -4308,125 +4308,131 @@ textarea.form-control {
 
 /*          Changes for small display      */
 @media (max-width: 767px) {
-  .navbar-transparent {
-    background-color: rgba(0, 0, 0, 0.45);
-  }
+.navbar-transparent {
+  background-color: rgba(0, 0, 0, 0.45);
+}
 
-  body {
-    position: relative;
-    font-size: 12px;
-  }
+body {
+  position: relative;
+  font-size: 12px;
+}
 
-  h6 {
-    font-size: 1em;
-  }
+h6 {
+  font-size: 1em;
+}
+
+#car-footer-off { 
+display: none; 
+}
+
+.carousel-indicators {
+  bottom: 3vh;
+}
+
+
 
 #icon-child { 
-margin-top: -2.5rem; 
+  margin-top: -2.5rem; 
 }
 
 .info .icon:first-child { 
   margin-top: 2rem;
 }
 
+.navbar .container {
+  left: 0;
+  width: 100%;
+  -webkit-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+  -moz-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+  -o-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+  -ms-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+  transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+  position: relative;
+}
 
+.navbar .navbar-nav .dropdown-menu {
+  height: 400px;
+  overflow-y: scroll;
+}
 
+.demo-header .motto {
+  padding-top: 30% !important;
+}
 
+.navbar-toggle .icon-bar {
+  display: block;
+  position: relative;
+  background: #fff;
+  width: 24px;
+  height: 2px;
+  border-radius: 1px;
+  margin: 0 auto;
+}
 
-  .navbar .container {
-    left: 0;
-    width: 100%;
-    -webkit-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
-    -moz-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
-    -o-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
-    -ms-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
-    transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
-    position: relative;
-  }
+.fog-low {
+margin-bottom: -35px;
+}
 
-  .navbar .navbar-nav .dropdown-menu {
-    height: 400px;
-    overflow-y: scroll;
-  }
+.presentation-title {
+  font-size: 5em;
+}
 
-  .demo-header .motto {
-    padding-top: 30% !important;
-  }
+.presentation-subtitle {
+  margin-top: 40px;
+}
 
-  .navbar-toggle .icon-bar {
-    display: block;
-    position: relative;
-    background: #fff;
-    width: 24px;
-    height: 2px;
-    border-radius: 1px;
-    margin: 0 auto;
-  }
+.title-brand {
+  max-width: 450px;
+}
+.title-brand .type {
+  font-size: 16px;
+}
 
-  .fog-low {
-    margin-bottom: -35px;
-  }
+.navbar-header .navbar-toggle {
+  margin-top: 12px;
+  width: 40px;
+  height: 40px;
+}
 
-  .presentation-title {
-    font-size: 5em;
-  }
+.bar1,
+.bar2,
+.bar3 {
+  outline: 1px solid transparent;
+}
 
-  .presentation-subtitle {
-    margin-top: 40px;
-  }
+.bar1 {
+  top: 0px;
+  -webkit-animation: topbar-back 500ms linear 0s;
+  -moz-animation: topbar-back 500ms linear 0s;
+  animation: topbar-back 500ms 0s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
 
-  .title-brand {
-    max-width: 450px;
-  }
-  .title-brand .type {
-    font-size: 16px;
-  }
+.bar2 {
+  opacity: 1;
+}
 
-  .navbar-header .navbar-toggle {
-    margin-top: 12px;
-    width: 40px;
-    height: 40px;
-  }
+.bar3 {
+  bottom: 0px;
+  -webkit-animation: bottombar-back 500ms linear 0s;
+  -moz-animation: bottombar-back 500ms linear 0s;
+  animation: bottombar-back 500ms 0s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
 
-  .bar1,
-  .bar2,
-  .bar3 {
-    outline: 1px solid transparent;
-  }
-
-  .bar1 {
-    top: 0px;
-    -webkit-animation: topbar-back 500ms linear 0s;
-    -moz-animation: topbar-back 500ms linear 0s;
-    animation: topbar-back 500ms 0s;
-    -webkit-animation-fill-mode: forwards;
-    -moz-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-  }
-
-  .bar2 {
-    opacity: 1;
-  }
-
-  .bar3 {
-    bottom: 0px;
-    -webkit-animation: bottombar-back 500ms linear 0s;
-    -moz-animation: bottombar-back 500ms linear 0s;
-    animation: bottombar-back 500ms 0s;
-    -webkit-animation-fill-mode: forwards;
-    -moz-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-  }
-
-  .toggled .bar1 {
-    top: 6px;
-    -webkit-animation: topbar-x 500ms linear 0s;
-    -moz-animation: topbar-x 500ms linear 0s;
-    animation: topbar-x 500ms 0s;
-    -webkit-animation-fill-mode: forwards;
-    -moz-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-  }
+.toggled .bar1 {
+  top: 6px;
+  -webkit-animation: topbar-x 500ms linear 0s;
+  -moz-animation: topbar-x 500ms linear 0s;
+  animation: topbar-x 500ms 0s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
 
   .toggled .bar2 {
     opacity: 0;
