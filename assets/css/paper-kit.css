@@ -1891,7 +1891,7 @@ textarea.form-control {
   width: 100%;
   z-index: 1;
 }
-.section-image .container {
+.section-image  {
   position: relative;
   z-index: 2;
 }
@@ -3468,7 +3468,7 @@ textarea.form-control {
   color: #f5593d;
 }
 .dropdown-actions li .link-danger:hover, .dropdown-actions li .link-danger:active, .dropdown-actions li .link-danger:focus {
-  color: #f5593d;
+  color: #3f9ccf;
 }
 .dropdown-actions li:hover a,
 .dropdown-actions li:focus a {
@@ -3659,7 +3659,7 @@ textarea.form-control {
 }
 
 .info .icon {
-  margin-top: 0;
+  margin-top: 2rem;
   font-size: 3.4em;
 }
 
@@ -4198,7 +4198,7 @@ textarea.form-control {
 }
 
 .carousel-indicators .active {
-  background-color: #f5593d;
+  background-color: #3f9ccf;
 }
 
 .page-carousel:hover .carousel-control.right,
@@ -4320,6 +4320,18 @@ textarea.form-control {
   h6 {
     font-size: 1em;
   }
+
+#icon-child { 
+margin-top: -2.5rem; 
+}
+
+.info .icon:first-child { 
+  margin-top: 2rem;
+}
+
+
+
+
 
   .navbar .container {
     left: 0;
@@ -4926,7 +4938,7 @@ textarea.form-control {
     height: 100%;
     width: 100%;
     position: absolute;
-    background-color: #FFFCF5;
+    background-color: #FFFFFF;
     background-image: linear-gradient(to bottom, transparent 0%, rgba(112, 112, 112, 0) 60%, rgba(186, 186, 186, 0.15) 100%);
     display: block;
     content: "";
