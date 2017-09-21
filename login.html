@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="es">
+
+    <head>
+    	<meta charset="utf-8" />
+    	<link rel="icon" type="image/png" href="https://firebasestorage.googleapis.com/v0/b/logbookmh.appspot.com/o/Assets%2Ffavicon.png?alt=media&token=01b6dfde-e8b4-4f6a-9b63-68800c29a0d8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    	
+    	<title>LOGBOOK – Bitácora médica fácil y efectiva</title>
+
+    	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+        <meta name="viewport" content="width=device-width" />
+        
+
+        <!-- Style Scripts -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> <!-- connected -->
+        <link href="assets/css/ct-paper.css" rel="stylesheet"/> <!-- connected -->
+        <link href="assets/css/demo.css" rel="stylesheet" /> <!-- connected -->
+        <link href="assets/css/register.css" rel="stylesheet" /> <!-- connected -->
+            
+        <!--     Fonts and icons     -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/44a56fcb69.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+        <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" rel="stylesheet" type="text/css">
+    </head>
+
+    
+    <div class="wrapper">
+        <div class="register-background"> 
+            <div class="filter-black"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1 ">
+                            <div class="register-card">
+                                <a href="index.html"><img src="https://firebasestorage.googleapis.com/v0/b/logbookmh.appspot.com/o/Assets%2FLogBook.png?alt=media&token=ddba3cff-f687-4e74-b27e-ad7f51dd839a"> </a>
+                                <!-- <h3 class="title title1">BIENVENIDO a</h3>   -->        
+                                <hr>
+                                <form class="register-form">
+                                    <label>CORREO ELECTRÓNICO</label>
+                                    <input type="text" class="form-control" placeholder="doctor@universidad.co" required>
+
+                                    <label>CONTRASEÑA</label>
+                                    <input type="password" class="form-control" placeholder="Password" href="entrada1.html" required>
+                                    <button class="btn btn-danger btn-block">Entrar</button>
+                                </form>                            
+
+                            <div class="btn-group btn-group-justified btn-group-sm" role="group" aria-label="...">
+                                <button class="btn btn-danger entry">Nuevo usuario?</button>                         
+                                <button class="btn btn-danger entry">Contraseña?</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>     
+        </div>
+    </div>      
+
+
+            
+   
+
+
+<!-- FireBase -->
+<script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+<script>
+    // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyD_YplIAfvHi8gpucQagjlOl83hENBcPuY",
+        authDomain: "logbookmh.firebaseapp.com",
+        databaseURL: "https://logbookmh.firebaseio.com",
+        projectId: "logbookmh",
+        storageBucket: "",
+        messagingSenderId: "328242442130"
+      };
+      firebase.initializeApp(config);
+</script>   
+
+</body>
+
+<!-- connected -->
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous">
+</script>
+
+<!-- connected -->
+<script 
+    src="https://code.jquery.com/jquery-3.2.1.min.js" 
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" 
+    crossorigin="anonymous">
+</script> 
+
+<!-- connected -->
+<script 
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
+    crossorigin="anonymous">
+</script>
+
+<!--  Plugins -->
+<script src="assets/js/ct-paper-checkbox.js"></script>
+<script src="assets/js/ct-paper-radio.js"></script>
+<script src="assets/js/bootstrap-select.js"></script>
+<script src="assets/js/bootstrap-datepicker.js"></script>
+
+<script src="assets/js/ct-paper.js"></script>
+    
+</html>
